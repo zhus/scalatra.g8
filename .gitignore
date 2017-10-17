@@ -11,9 +11,6 @@ config/database.yml
 log/*
 tmp/*
 
-# java specific
-*.class
-
 # python specific
 *.pyc
 
@@ -31,8 +28,8 @@ logs/*
 
 # sbt specific
 target/
-project/boot
 lib_managed/*
+project/boot
 project/build/target
 project/build/lib_managed
 project/build/src_managed
@@ -40,6 +37,7 @@ project/plugins/lib_managed
 project/plugins/target
 project/plugins/src_managed
 project/plugins/project
+project/project/
 
 core/lib_managed
 core/target
@@ -61,7 +59,6 @@ jrebel.lic
 
 # intellij
 *.eml
-*.iml
 *.ipr
 *.iws
 .*.sw?
